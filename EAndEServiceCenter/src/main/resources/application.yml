@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url:jdbc:mysql://localhost:3306/eeservise
+    username:root
+    password:2351
+jpa:
+  hibernate:
+    ddl-auto:create
