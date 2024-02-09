@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="dashboard" prefHeight="720.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController">
    <children>
-      <Label layoutX="358.0" layoutY="249.0" text="Dashboard">
+      <Label layoutX="358.0" layoutY="22.0" text="Dashboard">
          <font>
             <Font size="64.0" />
          </font>
       </Label>
+      <JFXButton layoutX="55.0" layoutY="513.0" text="Reports">
+         <font>
+            <Font name="Calibri" size="36.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="55.0" layoutY="421.0" text="Order Management">
+         <font>
+            <Font name="Calibri" size="36.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="55.0" layoutY="234.0" text="Customer Management">
+         <font>
+            <Font name="Calibri" size="36.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="55.0" layoutY="328.0" text="Inventry Management">
+         <font>
+            <Font name="Calibri" size="36.0" />
+         </font>
+      </JFXButton>
    </children>
 </AnchorPane>
